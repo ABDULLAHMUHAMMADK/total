@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+
+  /* border: 6px solid black;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  animation: roll 1s  infinite;
+  animation-timing-function: linear;
+  border-bottom: red 6px solid;
+  transform: skew(20deg ,2deg);
+  transform: ;
+  background-color: black; */
+}
+
+h1{
+    font-size: 40px;
+    transform: skew(20deg ,-40deg);
+    animation: roll infinite 2s;
+}
+
+@keyframes roll {
+    from{
+        rotate: 0;
+    }
+    to{
+        
+    }
+   
+}
